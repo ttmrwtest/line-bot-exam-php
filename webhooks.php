@@ -21,7 +21,13 @@ if($arrJson['events'][0]['message']['text'] == "ชื่ออะไร"){
 $arrPostData = array();
 $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
 $arrPostData['messages'][0]['type'] = "text";
-$arrPostData['messages'][0]['text'] = "ชื่อ BOTTTmrwtrst จ้า";
+$arrPostData['messages'][0]['text'] = "ชื่อ BOT TEST จ้า";
+}else 
+if($arrJson['events'][0]['message']['text'] == "อายุเท่าไหร่"){
+$arrPostData = array();
+$arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+$arrPostData['messages'][0]['type'] = "text";
+$arrPostData['messages'][0]['text'] = "เพิ่งเกิดได้ 2 วันจ้า";
 }else 
 if($arrJson['events'][0]['message']['text'] == "ทำอะไรได้บ้าง"){
 $arrPostData = array();
