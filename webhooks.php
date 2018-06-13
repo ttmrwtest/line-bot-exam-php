@@ -32,17 +32,62 @@ ttmrw
 NEW SERVER : administrator
 Kitahara1234";
 }else 
-if($arrJson['events'][0]['message']['text'] == "อายุเท่าไหร่"){
+if($arrJson['events'][0]['message']['text'] == "dms"){
 $arrPostData = array();
 $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
 $arrPostData['messages'][0]['type'] = "text";
-$arrPostData['messages'][0]['text'] = "เพิ่งเกิดได้ 2 วันจ้า";
+$arrPostData['messages'][0]['text'] = "File server : administrator
+qULWd0MZkgDo
+Rpices : administrator
+dms
+Nirvana : nirvana
+dms
+Proxy : dmstech
+dms1234
+Symantec : admin
+symantec1";
 }else 
-if($arrJson['events'][0]['message']['text'] == "ทำอะไรได้บ้าง"){
+if($arrJson['events'][0]['message']['text'] == "hakuto"){
 $arrPostData = array();
 $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
 $arrPostData['messages'][0]['type'] = "text";
-$arrPostData['messages'][0]['text'] = "ฉันทำอะไรไม่ได้เลย คุณต้องสอนฉันอีกเยอะ";
+$arrPostData['messages'][0]['text'] = "File server : administrator
+hkt2003";
+}else
+if($arrJson['events'][0]['message']['text'] == "nippon"){
+$arrPostData = array();
+$arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+$arrPostData['messages'][0]['type'] = "text";
+$arrPostData['messages'][0]['text'] = "File server : administrator
+Nippon1234";
+}else
+if($arrJson['events'][0]['message']['text'] == "alosk"){
+$arrPostData = array();
+$arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+$arrPostData['messages'][0]['type'] = "text";
+$arrPostData['messages'][0]['text'] = "File server : administrator
+AkasakA,Camel-k229310";
+}else
+if($arrJson['events'][0]['message']['text'] == "tomac"){
+$arrPostData = array();
+$arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+$arrPostData['messages'][0]['type'] = "text";
+$arrPostData['messages'][0]['text'] = "File server : administrator
+Tomac1234";
+}else
+if($arrJson['events'][0]['message']['text'] == "sanei"){
+$arrPostData = array();
+$arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+$arrPostData['messages'][0]['type'] = "text";
+$arrPostData['messages'][0]['text'] = "File-Server : administrator
+Sanei54321,P@ssw0rd,qULWd0MZkgDo";
+}else
+if($arrJson['events'][0]['message']['text'] == "วิธีใช้"){
+$arrPostData = array();
+$arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+$arrPostData['messages'][0]['type'] = "text";
+$arrPostData['messages'][0]['text'] = "คำสั่งให้พิมพ์เป็นตัวเล็กทั้งหมด เช่น 
+alsok / sanei / nippon / dms / tkl";
 }else
 {
 $arrPostData = array();
