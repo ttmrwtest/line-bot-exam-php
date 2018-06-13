@@ -88,11 +88,17 @@ $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
 $arrPostData['messages'][0]['type'] = "text";
 $arrPostData['messages'][0]['text'] = "คำสั่งให้พิมพ์เป็นตัวเล็กทั้งหมด เช่น 
 alsok / sanei / nippon / dms / tkl
+
 วิธีเปลี่ยน port outlook คำสั่ง portoutlook
+
 วิธี set map drive dearlife คำสั่ง mapdear
+
 โหลด avira free คำสั่ง avira
+
 วิธี set user vpn tkl คำสั่ง uservpntkl
+
 วิธี set vpn tkl คำสั่ง vpntkl
+
 โปรแกรม ipscan คำสั่ง ipscan
 ";
 }else
