@@ -21,7 +21,15 @@ if($arrJson['events'][0]['message']['text'] == "tkl"){
 $arrPostData = array();
 $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
 $arrPostData['messages'][0]['type'] = "text";
-$arrPostData['messages'][0]['text'] = "administrator
+$arrPostData['messages'][0]['text'] = "Fileserver : administrator
+Kitahara1234
+Server system : administrator
+kt2013
+proxy : administrator
+Kitahara1234
+VPN /101.109.244.155 : ttuser
+ttmrw
+NEW SERVER : administrator
 Kitahara1234";
 }else 
 if($arrJson['events'][0]['message']['text'] == "อายุเท่าไหร่"){
