@@ -87,7 +87,14 @@ $arrPostData = array();
 $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
 $arrPostData['messages'][0]['type'] = "text";
 $arrPostData['messages'][0]['text'] = "คำสั่งให้พิมพ์เป็นตัวเล็กทั้งหมด เช่น 
-alsok / sanei / nippon / dms / tkl";
+alsok / sanei / nippon / dms / tkl
+วิธีเปลี่ยน port outlook คำสั่ง portoutlook";
+}else
+if($arrJson['events'][0]['message']['text'] == "portoutlook"){
+$arrPostData = array();
+$arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+$arrPostData['messages'][0]['type'] = "text";
+$arrPostData['messages'][0]['text'] = "https://drive.google.com/open?id=15uaZyK7JFhIPbu_0JKW0n_saRXhBT6tY";
 }else
 {
 $arrPostData = array();
