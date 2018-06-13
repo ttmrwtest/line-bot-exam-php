@@ -17,11 +17,12 @@ $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
 $arrPostData['messages'][0]['type'] = "text";
 $arrPostData['messages'][0]['text'] = "สวัสดี ID คุณคือ ".$arrJson['events'][0]['source']['userId'];
 }else 
-if($arrJson['events'][0]['message']['text'] == "ชื่ออะไร"){
+if($arrJson['events'][0]['message']['text'] == "tkl"){
 $arrPostData = array();
 $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
 $arrPostData['messages'][0]['type'] = "text";
-$arrPostData['messages'][0]['text'] = "ชื่อ BOT TEST จ้า";
+$arrPostData['messages'][0]['text'] = "administrator
+Kitahara1234";
 }else 
 if($arrJson['events'][0]['message']['text'] == "อายุเท่าไหร่"){
 $arrPostData = array();
