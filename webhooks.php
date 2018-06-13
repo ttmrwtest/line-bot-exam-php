@@ -61,7 +61,7 @@ $arrPostData['messages'][0]['type'] = "text";
 $arrPostData['messages'][0]['text'] = "File server : administrator
 Nippon1234";
 }else
-if($arrJson['events'][0]['message']['text'] == "alosk"){
+if($arrJson['events'][0]['message']['text'] == "alsok"){
 $arrPostData = array();
 $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
 $arrPostData['messages'][0]['type'] = "text";
